@@ -8,7 +8,7 @@
         "build": "tsc -b && vite build",
         "lint": "eslint .",
         "preview": "vite preview",
-        "clean": "rm -rf dist",
+        "clean": "rm -rf docs",
         "server": "json-server --watch data/questions.json --port 4000"
     },
     "dependencies": {
